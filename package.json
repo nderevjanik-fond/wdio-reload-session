@@ -17,6 +17,7 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
+    "e2e:android": "wdio run test/wdio.android.conf.ts",
     "e2e:ios": "wdio run test/wdio.ios.conf.ts"
   }
 }
