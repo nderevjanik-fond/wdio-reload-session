@@ -10,6 +10,7 @@
     "@wdio/mocha-framework": "^8.10.4",
     "@wdio/spec-reporter": "^8.10.4",
     "appium": "^2.0.0-beta.66",
+    "appium-chromium-driver": "^1.1.16",
     "appium-uiautomator2-driver": "^2.24.1",
     "appium-xcuitest-driver": "^4.26.2",
     "mocha": "^10.2.0",
@@ -17,6 +18,7 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
+    "e2e:browser": "wdio run test/wdio.browser.conf.ts",
     "e2e:android": "wdio run test/wdio.android.conf.ts",
     "e2e:ios": "wdio run test/wdio.ios.conf.ts"
   }
